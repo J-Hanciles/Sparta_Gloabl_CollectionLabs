@@ -40,8 +40,17 @@ namespace lab_19_collections
 
         public int CubicArray()
         {
-            
-            return myCubicArray[0, 0, 0];
+            for (int i = 0; i < myCubicArray.GetLength(0); i++)
+            {
+                for (int x = 0; x < myCubicArray.GetLength(1); x++)
+                {
+                    for (int y = 0; y < myCubicArray.GetLength(2); y++)
+                    {
+                        myCubicArray[i, x, y] = i * x * y;
+                    }
+                }
+            }
+            return myCubicArray[2, 3, 7];
         }
 
 
@@ -62,6 +71,9 @@ namespace lab_19_collections
 
         public int List()
         {
+            List<int> intList = new List<int>();
+
+
 
             return -1;
         }
@@ -85,6 +97,8 @@ namespace lab_19_collections
          */
 
         public Dictionary<string, string> DictionaryTest() {
+
+
 
 
             return dictionary;
