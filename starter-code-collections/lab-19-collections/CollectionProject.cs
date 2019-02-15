@@ -98,6 +98,18 @@ namespace lab_19_collections
 
         public Dictionary<string, string> DictionaryTest() {
 
+            Dictionary<string, string> DictionaryTest = new Dictionary<string, string>();
+            DictionaryTest.Add("England", "London");
+            DictionaryTest.Add("Scotland", "Edinburgh");
+            DictionaryTest.Add("Ireland", "Belfast");
+            DictionaryTest.Add("Australia", "Sydney");
+            DictionaryTest.Add("Sierra Leone", "Freetown");
+            DictionaryTest.Add("Portugal", "Lisbon");
+            DictionaryTest.Add("China", "Beijing");
+            DictionaryTest.Add("Germany", "Frankfurt");
+            DictionaryTest.Add("France", "Paris");
+            DictionaryTest.Add("Japan", "Tokyo");
+
 
 
 

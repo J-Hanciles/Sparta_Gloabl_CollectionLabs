@@ -6,3 +6,4 @@ C:\Users\tech-w98a\Engineering26\Week5\Day4\Sparta_Gloabl_CollectionLabs\starter
 C:\Users\tech-w98a\Engineering26\Week5\Day4\Sparta_Gloabl_CollectionLabs\starter-code-collections\lab-19-collections\obj\Debug\netstandard2.0\lab-19-collections.AssemblyInfo.cs
 C:\Users\tech-w98a\Engineering26\Week5\Day4\Sparta_Gloabl_CollectionLabs\starter-code-collections\lab-19-collections\obj\Debug\netstandard2.0\lab-19-collections.dll
 C:\Users\tech-w98a\Engineering26\Week5\Day4\Sparta_Gloabl_CollectionLabs\starter-code-collections\lab-19-collections\obj\Debug\netstandard2.0\lab-19-collections.pdb
+C:\Users\tech-w98a\Engineering26\Week5\Day4\Sparta_Gloabl_CollectionLabs\starter-code-collections\lab-19-collections\obj\Debug\netstandard2.0\lab-19-collections.csprojAssemblyReference.cache
