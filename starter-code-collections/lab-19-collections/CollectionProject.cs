@@ -71,11 +71,22 @@ namespace lab_19_collections
 
         public int List()
         {
-            List<int> intList = new List<int>();
+            int sum = 0;
+            List<int> List01 = new List<int>();
+            for (int i = 0; i < myCubicArray.GetLength(0); i++)
+            {
+                for (int x = 0; x < myCubicArray.GetLength(1); x++)
+                {
+                    for (int y = 0; y < myCubicArray.GetLength(2); y++)
+                    {
+                        List01.Add(sum);
+                        sum = sum + (i * x * y);
+                    }
+                }
+            }
 
 
-
-            return -1;
+            return sum;
         }
 
 
@@ -110,10 +121,8 @@ namespace lab_19_collections
             DictionaryTest.Add("France", "Paris");
             DictionaryTest.Add("Japan", "Tokyo");
 
-
-
-
-            return dictionary;
+                               
+            return DictionaryTest;
         }
         
         
@@ -140,9 +149,17 @@ namespace lab_19_collections
 
         public int QueueTest()
         {
-
-
-            return -1;
+            int sum = 0;
+            for (int i = 0; i < 100; i++)
+            {
+                int cube = (i * i * i);
+                queue.Enqueue(cube);
+            }
+            for (int i = 0; i <= 10; i++)
+            {
+                sum += queue.Dequeue();
+            }
+            return sum;
         }
 
 
@@ -168,7 +185,7 @@ namespace lab_19_collections
 
         public int StackTest()
         {
-
+            Stack<int> stack = new Stack<int>();
 
             return -1;
         }
